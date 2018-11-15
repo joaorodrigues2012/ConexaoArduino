@@ -1,0 +1,140 @@
+<html>
+<head>
+<link rel="stylesheet" href="CSS/styleCon.css">
+</head>
+<body>
+	<h1>Calcule sua energia eletrica</h1>
+
+
+
+
+	<div class="content">
+		<!-- 1. Container -->
+		<div class="container first">
+			<h1>LED</h1>
+			<div class="inp">
+				<label>Tempo (h)</label> <input id="dauer" type="text"
+					placeholder="por dia">
+			</div>
+
+			<div class="inp">
+				<label>Watt</label> <input id="watt" class="input1" type="text"
+					placeholder="watt">
+			</div>
+
+			<div class="inp">
+				<label>tempo de vida (h)</label> <input id="ldauer" type="text"
+					value="8000">
+			</div>
+
+			<div class="inp">
+				<label>preço da eletricidade por kWh (R$)</label> <input id="spreis"
+					type="text" value="0.22">
+			</div>
+		</div>
+
+
+		<!-- 2. Container -->
+		<div class="container second">
+			<h1>lâmpada</h1>
+			<div class="inp">
+				<label>Tempo (h)</label> <input id="gdauer" type="text"
+					placeholder="por dia">
+			</div>
+
+			<div class="inp">
+				<label>Watt</label> <input id="gwatt" class="input2" type="text"
+					placeholder="watt">
+			</div>
+
+			<div class="inp">
+				<label> tempo de vida (h)</label> <input id="gldauer" type="text"
+					value="1000">
+			</div>
+
+			<div class="inp">
+				<label> preço da eletricidade por kWh (R$)</label> <input
+					id="gspreis" type="text" value="0.22">
+			</div>
+		</div>
+
+
+		<!-- Erg Container -->
+		<div class="container erg">
+			<h1>resultado LED</h1>
+			<div class="inp">
+				<label>consumo por dia</label> <span><span id="kwattpd">____</span>kWh</span>
+			</div>
+
+			<div class="inp">
+				<label>custo por dia</label> <span><span id="europd">____</span>R$</span>
+			</div>
+
+			<div class="inp">
+				<label>custo por ano</label> <span><span id="europy">____</span>R$</span>
+			</div>
+
+			<div class="inp">
+				<label>tempo de vida</label> <span><span id="ldauerpy">____</span>anos</span>
+			</div>
+		</div>
+		<div class="arrow">
+			<svg version="1.1" baseProfile="basic" id="arrow"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				viewBox="0 0 1400 50" xml:space="preserve">
+    <polygon fill="#BDC3C7"
+					points="0,25 720,50 1400,25 1400,0 720,25 0,0 " />
+    </svg>
+		</div>
+	</div>
+
+
+
+	<!-- bottom cont -->
+	<div class="content contenterg">
+		<!-- 1. Container -->
+		<div class="container erg">
+			<div class="inp">
+				<label>poupança por ano</label> <span><span id="eepy">____</span>R$</span>
+			</div>
+
+			<div class="inp">
+				<label>economia por vida</label> <span><span id="epld">____</span>R$</span>
+			</div>
+		</div>
+
+
+		<!-- 2. Container -->
+		<div class="container erg">
+			<div class="inp">
+				<label>...</label> <span><span id="...">____</span>...</span>
+			</div>
+
+			<div class="inp">
+				<label>...</label> <span><span id="...">____</span>...</span>
+			</div>
+		</div>
+
+
+		<!-- 3. Container -->
+		<div class="container erg">
+			<div class="inp">
+				<label>...</label> <span><span id="...">____</span>...</span>
+			</div>
+
+			<div class="inp">
+				<label>...</label> <span><span id="...">____</span>...</span>
+			</div>
+		</div>
+	</div>
+</body>
+<script
+	src='//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js'></script>
+<script
+	src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script
+	src='https://api.ning.com:80/files/ZF50gJ1IzcVU3iFK06HMBZjy6i-IZpVeE56dHMlPpaRZ2FhSlQXzhdIgDxDoGePeqBPpoDFuVm3Ap0DJrrLpS*Kdjf5poGXo/main.js'></script>
+
+<script type="text/javascript" src="JS/conJavascrpt.js"></script>
+</html>
